@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root {
+    --bg:#242526;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --nav-height: 10vh;
+    --border: 1px solid 474a4d;
+    --border-radius: 8px;
+    --speed: 500px;
+}
+
+
+
+
+.page-container{
+    /* make mobile first reactive*/
+
+
+}
+
+
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+h1{
+
+}
+
+h2{
+    
+}
+
+
+.navbar {
+    height:var(--nav-height);
+    background-color: var(--bg);
+    padding: 0;
+    border-bottom: var(--border);
+}
+
+.navbar-nav {
+    max-width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.nav-item {
+    /* Eye at width*/
+    width: calc(var(--nav-size)*0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item-button{
+    --button-size: calc(var(--nav-height)*0.5);
+    /* Likley change width and height*/
+    width:var(--button-size);
+    height: var(--button-size);
+    padding:5px;
+    margin:2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 300ms;
+
+}
+
+.nav-item-button:hover{
+    filter:brightness(1.2);
+
+}
+
+.main-content-grid {
+    display: grid;
+    grid-template-columns: 12% 74% 12%;
+    height:90vh;
+}
+
+
+.header-text {
+    font-family: 'Teko', sans-serif;
+    font-size:13vw; /*TODO Fit header to box, make text off black*/
+    margin:0;
+    padding:0;
+}
+
+.header-grid {
+    display:grid;
+    grid-template-rows:30% 60% 10%;
+    
+}
+
+.header-title-container {
+    justify-content:left;
+    max-height:600px;
+}
+
+.header-body-container {
+    justify-content:left;
+    display:grid;
+    grid-template-columns:10% 60% 10%;
+    max-width:600px;
+    justify-self:center;
+}
+
+
+.negative-left {
+    
+}
+
+.negative-right {
+    
+}
+
+.triple-row-grid {
+    
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-items:center;
+}
+
+.triple-row-item {
+    justify-self: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.viewport-entry{
+    
+    display:grid;
+}
+
+a {
+    color:slategrey;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+a:hover{
+    color:mediumaquamarine;
+}
+
