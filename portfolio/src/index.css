@@ -91,9 +91,20 @@ h2{
 
 }
 
-.main-content-grid {
+.main-content {
+    /* find out why it doesntg strecth fullscreen*/
     display: grid;
     grid-template-columns: 12% 74% 12%;
+    padding:0;
+    margin:0;
+    width:100vw;
+
+}
+
+
+#home-content-grid {
+    display: grid;
+    /*grid-template-columns: 12% 74% 12%;*/
     height:90vh;
 }
 
