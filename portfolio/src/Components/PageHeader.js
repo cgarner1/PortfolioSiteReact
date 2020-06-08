@@ -14,7 +14,7 @@ export function HeaderText(props) {
                 <p>{props.children}</p>
                 <div></div>
             </div>
-            <TripleItemGrid item1="Software Engineering" item2="Machine Learning" item3="Game Dev"></TripleItemGrid>
+            <TripleItemGrid item1="Software Engineering" item2="Machine Learning" item3="Game Development"></TripleItemGrid>
         </div>
     );
 
