@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Teko&display=swap');
 
 body {
   margin: 0;
@@ -41,14 +42,30 @@ ul {
     padding:0;
 }
 
-h1{
-
+h1 {
+    color:#111111;
 }
 
-h2{
+h2 {
+    color: #242526;
+    font-family: 'Teko', sans-serif;
+    font-size:40px;
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style:italic;
     
 }
 
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size:16px;
+}
+
+a {
+    font-family: 'Noto Sans', sans-serif;
+}
 
 .navbar {
     height:var(--nav-height);
@@ -127,6 +144,7 @@ h2{
 .header-title-container {
     justify-content:left;
     max-height:600px;
+    
 }
 
 .header-body-container {
@@ -135,6 +153,7 @@ h2{
     grid-template-columns:10% 60% 10%;
     max-width:600px;
     justify-self:center;
+    padding-top:0px;
 }
 
 
@@ -175,7 +194,7 @@ a:hover{
 }
 
 .projects-container {
-    height:100vh;
+    height:75vh;
     display:grid;
     grid-template-rows: 10% 90%;
 }
@@ -183,11 +202,11 @@ a:hover{
 
 .project-info-container {
     display:grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 25% 75%;
 }
 .project-content {
     display:grid;
-    grid-template-rows:40% 5% 5% 30%;
+    grid-template-rows:40% 40%;
     
     width:40vw;
 
@@ -207,9 +226,10 @@ a:hover{
 }
 
 .proj-section-header {
-
+    font-family: 'Teko', sans-serif;
 }
 
 .proj-text-container {
     
 }
+

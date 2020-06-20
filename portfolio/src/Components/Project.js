@@ -12,16 +12,10 @@ export function Project(props) {
                 <div className="project-content">
                     <div><img className="proj-img"></img></div>
 
-                    <div className="proj-name-container">
-                        {props.name}
-                    </div>
-
                     <div className="proj-text-container">
-                        {props.date}
-                    </div>
-
-                    <div className="proj-description-container">
-                        {props.children}
+                        <h3>{props.name}</h3>
+                        <h3>{props.date}</h3>
+                        <p>{props.children}</p>
                     </div>
                 </div>
             </div>
