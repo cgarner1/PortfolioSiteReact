@@ -9,18 +9,18 @@ import { Project} from "./Components/Project"
 
 function App() {
   return (
-      <div className="Page-Content">
-          <Navbar>
-              <NavItem icon="&#129409;" />
-              <NavItem icon="&#129409;" />
-              <NavItem icon="&#129409;" />
+      <div className="page-content">
+          <Navbar title="Christopher Garner">
+              <NavItem text="Education"></NavItem>
+              <NavItem text="Tools"></NavItem>
+              <NavItem text="Contact"></NavItem>
           </Navbar>
           <div className ="main-content">
               <div className="negative-left"></div>
               <div className ="middle-grid">
 
 
-
+                  
                   {/* MAIN CONTENT*/}
                   <section id="home-content">
                       <div className="viewport-entry">
@@ -44,7 +44,7 @@ function App() {
 
                   <Project sectionId="SWE" sectionHeader="" name="Headphone Finder Site" date="Personal - 2020">
                       Designed and implemented a dynamic front-end for a website designed to find optimal prices on headphones. The user expirience was designed to be easy to navigate,
-                      yet visibly pleasing and extremley clean.
+                      yet visibly pleasing.
                   </Project>
 
                   {/* ML */}

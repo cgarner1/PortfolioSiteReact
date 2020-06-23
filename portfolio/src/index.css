@@ -28,11 +28,9 @@ code {
 
 
 
-
 .page-container{
-    /* make mobile first reactive*/
-
-
+    padding:0;
+    margin:0;
 }
 
 
@@ -41,6 +39,7 @@ ul {
     margin:0;
     padding:0;
 }
+
 
 h1 {
     color:#111111;
@@ -60,7 +59,7 @@ h3 {
 
 p {
     font-family: 'Noto Sans', sans-serif;
-    font-size:16px;
+    font-size:15px;
 }
 
 a {
@@ -68,48 +67,62 @@ a {
 }
 
 .navbar {
-    height:var(--nav-height);
-    background-color: var(--bg);
+    height: 10vh;
+    background-color: #242526;
     padding: 0;
-    border-bottom: var(--border);
+    border-bottom: 1px solid #474a4d;
 }
 
 .navbar-nav {
     max-width: 100%;
     height: 100%;
-    display:flex;
-    justify-content:flex-end;
+    display:grid;
+    grid-template-columns: 60% 40%;
+    align-items:center;
+    padding-left:2vw;
 }
 
 .nav-item {
     /* Eye at width*/
     width: calc(var(--nav-size)*0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.nav-item-button{
-    --button-size: calc(var(--nav-height)*0.5);
+.nav-item-link {
+    /*--button-size: calc(var(--nav-height)*0.5);*/
     /* Likley change width and height*/
-    width:var(--button-size);
-    height: var(--button-size);
-    padding:5px;
-    margin:2px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
     transition: filter 300ms;
+    transition: color 0.2s ease-in;
+    font-size: calc(8px + 0.4vw);
+}
+
+.nav-item-title {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: calc(14px + 0.5vw);
+    color: floralwhite;
 
 }
 
-.nav-item-button:hover{
-    filter:brightness(1.2);
 
+
+.nav-item-link:hover {
+    filter: brightness(1.2);
+    color: mediumaquamarine;
 }
+
+.nav-link-container {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items:center;
+}
+
+
+.page-content {
+    margin:0;
+    padding:0;
+}
+
 
 .main-content {
-    /* find out why it doesntg strecth fullscreen*/
     display: grid;
     grid-template-columns: 12% 74% 12%;
     padding:0;
@@ -170,6 +183,7 @@ a {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     justify-items:center;
+    font-size:calc(10px + 0.5vw);
 }
 
 .triple-row-item {
@@ -194,7 +208,7 @@ a:hover{
 }
 
 .projects-container {
-    height:75vh;
+    height:85vh;
     display:grid;
     grid-template-rows: 10% 90%;
 }
@@ -202,8 +216,9 @@ a:hover{
 
 .project-info-container {
     display:grid;
-    grid-template-rows: 25% 75%;
+    grid-template-rows: 30% 60%;
 }
+
 .project-content {
     display:grid;
     grid-template-rows:40% 40%;
@@ -227,6 +242,8 @@ a:hover{
 
 .proj-section-header {
     font-family: 'Teko', sans-serif;
+    overflow:hidden;
+    
 }
 
 .proj-text-container {
