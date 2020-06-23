@@ -210,22 +210,18 @@ a:hover{
 .projects-container {
     height:85vh;
     display:grid;
-    grid-template-rows: 10% 90%;
+    /*grid-template-rows: 10% 90%;*/
 }
 
 
 .project-info-container {
     display:grid;
-    grid-template-rows: 30% 60%;
 }
 
 .project-content {
     display:grid;
     grid-template-rows:40% 40%;
-    
     width:40vw;
-
-    /* width: TODO*/
 }
 
 .proj-img {
@@ -243,7 +239,6 @@ a:hover{
 .proj-section-header {
     font-family: 'Teko', sans-serif;
     overflow:hidden;
-    
 }
 
 .proj-text-container {

@@ -32,39 +32,42 @@ function App() {
                       </div>
                   </section>
                   {/* SWE */}
-                  <Project sectionId="SWE" sectionHeader="SOFTWARE ENGINEERING" name="ML Models to XLSX" date="Professional - 2019">
+                  <section id="SWE"><h2>Software Engineering</h2></section>
+                  <Project name="ML Models to XLSX" date="Professional - 2019">
                       Built and tested an internal API used to automatically extract performance data from trained machine learning models,
                       and organize that data elegantly in xlsx files, and JSON files to be consumed by other services.
                   </Project>
 
-                  <Project sectionId="SWE" sectionHeader="" name="Full-Stack .Net Core Demo" date="Personal - 2020">
+                  <Project name="Full-Stack .Net Core Demo" date="Personal - 2020">
                       Learned the ins and outs of full-stack developmnent using .Net Core MVC, Entity Framework, and Bootstrap to build and deploy a web application with data persistence, user authentication,
                       and asynchronous API calls using RESTful conventions. 
                   </Project>
 
-                  <Project sectionId="SWE" sectionHeader="" name="Headphone Finder Site" date="Personal - 2020">
+                  <Project name="Headphone Finder Site" date="Personal - 2020">
                       Designed and implemented a dynamic front-end for a website designed to find optimal prices on headphones. The user expirience was designed to be easy to navigate,
                       yet visibly pleasing.
                   </Project>
 
                   {/* ML */}
-                  <Project sectionId="ML" sectionHeader="MACHINE LEARNING" name="Deep Learning Environment" date="Personal - 2019">
+                  <section id="ML"><h2>Machine Learning</h2></section>
+                  <Project name="Deep Learning Environment" date="Personal - 2019">
                       Developed an AI environment from scratch designed to train reinforcement learning algorithms (Neural Networks, Genetic Algorithms, etc). The environment was based on
                       <a href=""> OpenAI's Gym API.</a>  Designed a custom Deep-Q algorithm that then learned and mastered the environment.
                   </Project>
 
-                  <Project sectionId="ML" sectionHeader="" name="Neural Network CLI App" date="Personal - 2019">
+                  <Project name="Neural Network CLI App" date="Personal - 2019">
                       Developed easy to use command line application designed to quickly choose, train, and implement multiple Convolutional Neural Networks using PyTorch and Python's
                       CLI tools.
                   </Project>
 
                   {/* Game Dev */}
-                  <Project sectionId="GD" sectionHeader="GAME DEVELOPMENT" name="Traingle Rush" date="Personal - 2020">
+                  <section id="GD"><h2>Game Deveopment</h2></section>
+                  <Project name="Traingle Rush" date="Personal - 2020">
                       Collaborated with Elon University students to build a 2D shoot-em-up in Unity. Triangle Rush featured physics-based movement, the ability to grab and shoot back items
                       in the game world, mutliple enemy types and power-ups.
                   </Project>
 
-                  <Project sectionId="GD" sectionHeader="" name="Unannounced Indie Project" date="Personal - 2020">
+                  <Project name="Unannounced Indie Project" date="Personal - 2020">
                       Currently building a larger scale indie project in Unity. More details in the future! Artwork in image is by Tomas Lean.
                   </Project>
               </div>
