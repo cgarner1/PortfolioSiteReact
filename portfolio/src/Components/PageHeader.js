@@ -11,7 +11,7 @@ export function HeaderText(props) {
             </div>
             <div className="header-body-container">
                 <div></div> 
-                <p>{props.children}</p>
+                <p className="intro-para">{props.children}</p>
                 <div></div>
             </div>
             <TripleItemGrid item1="Software Engineering" item2="Machine Learning" item3="Game Development"></TripleItemGrid>

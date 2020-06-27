@@ -21,9 +21,8 @@ export function ProjectsPage() {
                     <section id="home-content">
                         <div className="viewport-entry">
                             <HeaderText title="PROJECTS">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Amet venenatis urna cursus eget nunc
+                                Continued learning requires constantly building meaningful projects inside and outside the workplace. Throughout my journey in the Computer Science field,
+                                I have built, and continue to build multiple projects within the Software Engineering, Machine Learning, and Game Development space. Click on one of the links below to learn more.
                           </HeaderText>
                         </div>
                     </section>
@@ -36,7 +35,7 @@ export function ProjectsPage() {
                   </Project>
 
                     <Project name="Full-Stack .Net Core Demo" date="Personal - 2020" img="/images/ASPDemo.png">
-                        Learned the ins and outs of full-stack developmnent using .Net Core MVC, Entity Framework, and Bootstrap to build and deploy a web application with data persistence, user authentication,
+                        Learned the ins and outs of full-stack development using .Net Core MVC, Entity Framework, and Bootstrap to build/deploy a web application with data persistence, user authentication,
                         and asynchronous API calls using RESTful conventions.
                   </Project>
 
@@ -49,23 +48,23 @@ export function ProjectsPage() {
                     <section id="ML"><h2>Machine Learning</h2></section>
                     <Project name="Deep Learning Environment" date="Personal - 2019" img="/images/deep-q.gif">
                         Developed an AI environment from scratch designed to train reinforcement learning algorithms (Neural Networks, Genetic Algorithms, etc). The environment was based on
-                      <a href=""> OpenAI's Gym API.</a>  Designed a custom Deep-Q algorithm that then learned and mastered the environment.
+                      <a href="https://gym.openai.com/" target="_blank"> OpenAI's Gym API.</a>  Designed a custom Deep-Q algorithm that then learned and mastered the environment.
                   </Project>
 
                     <Project name="Neural Network CLI App" date="Personal - 2019" img="/images/cmd_app_code.png">
-                        Developed easy to use command line application designed to quickly choose, train, and implement multiple Convolutional Neural Networks using PyTorch and Python's
+                        Developed easy-to-use command line application designed to quickly choose, train, and implement multiple Convolutional Neural Networks using PyTorch and Python's
                         CLI tools.
                   </Project>
 
                     {/* Game Dev */}
-                    <section id="GD"><h2>Game Deveopment</h2></section>
-                    <Project name="Traingle Rush" date="Personal - 2020" img="/images/trirush.png">
+                    <section id="GD"><h2>Game Development</h2></section>
+                    <Project name="Triangle Rush" date="Personal - 2020" img="/images/trirush.png">
                         Collaborated with Elon University students to build a 2D shoot-em-up in Unity. Triangle Rush featured physics-based movement, the ability to grab and shoot back items
-                        in the game world, mutliple enemy types and power-ups.
+                        in the game world, mutliple enemy types, and power-ups.
                   </Project>
 
-                    <Project name="Unannounced Indie Project" date="Personal - 2020" img="">
-                        Currently building a larger scale indie project in Unity. More details in the future! Artwork in image is by Tomas Lean.
+                    <Project name="Unannounced Indie Project" date="Personal - 2020" img="/images/empty-image.jpg">
+                        Currently building a larger scale indie project in Unity. More details in the future!
                   </Project>
                 </div>
 
