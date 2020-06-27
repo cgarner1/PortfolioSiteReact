@@ -62,7 +62,7 @@ h3 {
 
 p {
     font-family: 'Noto Sans', sans-serif;
-    font-size:15px;
+    font-size: calc(10px + 0.3vw);
 }
 
 a {
@@ -230,6 +230,10 @@ a:hover{
     display:grid;
     grid-template-rows:40% 40%;
     width:40vw;
+}
+
+.project-date {
+    font-size:14px;
 }
 
 .project-img-container{
