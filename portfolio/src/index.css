@@ -8,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden; /* temporary fix, there is an oversized div*/
 }
 
 code {
@@ -17,17 +18,21 @@ code {
 
 
 :root {
-    --bg:#242526;
+    /*--bg:#242526;
     --bg-accent: #484a4d;
     --text-color: #dadce1;
     --nav-height: 10vh;
     --border: 1px solid 474a4d;
     --border-radius: 8px;
     --speed: 500px;
+        */
 }
 
 html {
     scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+
 }
 
 .page-container {
@@ -74,6 +79,8 @@ a {
     background-color: #242526;
     padding: 0;
     border-bottom: 1px solid #474a4d;
+    margin:0;
+    position:static;
 }
 
 .navbar-nav {
@@ -127,7 +134,7 @@ a {
 
 .main-content {
     display: grid;
-    grid-template-columns: 12% 74% 12%;
+    grid-template-columns: 11% 74% 11%;
     padding:0;
     margin:0;
     width:100vw;
@@ -183,7 +190,8 @@ a {
 }
 
 .negative-right {
-    
+    margin:0;
+    padding:0;
 }
 
 .triple-row-grid {
