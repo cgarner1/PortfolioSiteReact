@@ -1,4 +1,5 @@
 import React from "react"
+import {NavLink} from "react-router-dom"
 
 export function Navbar(props) {
     return (
@@ -14,7 +15,7 @@ export function Navbar(props) {
 export function NavItem(props) {
     return (
         <li className = "nav-item">
-            <a href="#" className="nav-item-link">{props.text}</a>
+            <NavLink to={props.link} className="nav-item-link">{props.text}</NavLink>
         </li>
         );
 

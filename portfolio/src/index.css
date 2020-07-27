@@ -80,7 +80,6 @@ a {
     padding: 0;
     border-bottom: 1px solid #474a4d;
     margin:0;
-    position:static;
 }
 
 .navbar-nav {
@@ -121,7 +120,7 @@ a {
 
 .nav-link-container {
     display:grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     justify-items:center;
 }
 
@@ -266,3 +265,17 @@ a:hover{
     
 }
 
+
+.school-icon {
+    background-color:aqua;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    
+}
+
+.school-info-container{
+    justify-items:center;
+    display:grid;
+    padding-bottom:250px;
+}

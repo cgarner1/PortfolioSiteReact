@@ -6,11 +6,7 @@ import { Project } from "./Project"
 export function ProjectsPage() {
     return (
         <div className="page-content">
-            <Navbar title="Christopher Garner">
-                <NavItem text="Education" link=""></NavItem>
-                <NavItem text="Tools" link=""></NavItem>
-                <NavItem text="Contact" link=""></NavItem>
-            </Navbar>
+            
             <div className="main-content">
                 <div className="negative-left"></div>
                 <div className="middle-grid">
