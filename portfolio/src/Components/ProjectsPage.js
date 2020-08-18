@@ -48,7 +48,7 @@ export function ProjectsPage() {
                   </Project>
 
                     <Project name="Neural Network CLI App" date="Personal - 2019" img="/images/cmd_app_code.png">
-                        Developed easy-to-use command line application designed to quickly choose, train, and implement multiple Convolutional Neural Networks using PyTorch and Python's
+                        Developed an easy-to-use command line application designed to quickly choose, train, and implement multiple Convolutional Neural Networks using PyTorch and Python's
                         CLI tools.
                   </Project>
 

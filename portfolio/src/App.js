@@ -14,8 +14,8 @@ function App() {
               <Navbar title="Christopher Garner">
                   <NavItem text="Projects" link="/"></NavItem>
                   <NavItem text="Education" link="/education"></NavItem>
-                  <NavItem text="Tools" link=""></NavItem>
-                  <NavItem text="Contact" link=""></NavItem>
+                  
+                  
               </Navbar>
           <Route exact path={"/"} component={ProjectsPage}></Route>
           <Route exact path={"/education"} component={ExpiriencePage}></Route>
