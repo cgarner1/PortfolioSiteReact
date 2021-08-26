@@ -14,20 +14,21 @@ export function ExpiriencePage() {
 
                             {/* VIEWPORT ENTRY*/}
                             <div className="header-title-container">
-                                <h1 className="header-text">EDUCATION</h1>
+                                <h1 className="header-text">Experience</h1>
                             </div>
-                            <School imgsrc="/images/CMU.jpg" major="Master of Software Engineering" date="Jun 2020 - Dec 2021" name="Carnegie Mellon University">
-                                I am currently enrolled in CMU's Master of Software Engineering - Scalable Systems program. Over the next year and a half, I will be taking courses
-                                the include Software Architecture, Data Intensive Systems, Distributed Systems and many ohter assorted Software Engineering topics.
-                                The skills I learn in these courses will be applied during a 14 week practicum, in which our abilities are tested
-                                to build real world, business ready solutions to be integrated into large-scale company systems. 
+                            <School imgsrc="/images/mfst1.jpg" major="Software Engineer Intern - High Availability Storage and Data Intellegence" date="May 2021 - Aug 2021" name="Microsoft">
+                                I had the pleasure of interning at Microsoft in May 2021 within the HASD&I team within Azure. At this internship I gained expirience in data engineering, using internal
+                                Microsoft tools along with openly available tools such as Azure Data Explorer. I also had the oportunity to gain expirience in Cloud Infrastructure, building VMs within
+                                an Azure testing environment. On top of this, I gained valuable expirience honing my soft skills, as I had the chance to present to senior leadership, many times
+                                over my three month period of work, along with collaborative skills in a fast paced engineering environment.
                             </School>
-                            <School imgsrc="/images/elon.jpg" major="B.S. Computer Science" date="Sep 2016 - May 2020" name="Elon University">
-                                Over the four years of my Elon University expirience, I was provided ample opportunities to refine my knowledge and ability in the area of
-                                Computer Science. Meaningful electives in courses such as Machine Learning and Web Development allowed me to further my immediate technical skills,
-                                while leadership opportunities such as the founding of Computer Science Club (and taking the role of Vice President of said organization) gave me
-                                significant time to hone my skills in networking, managment, and leadership.
+
+                            <School imgsrc="/images/metlife.jpg" major="Technical Intern - Data and Analytics Open Source" date="Jun 2019 - Aug 2019" name="MetLife">
+                                In 2019, I interned at MetLife as a technical intern. I gained expirience primarily with Python, as I learned the MetLife Data Science workflow. I 
+                                had the opportunity to build an internal tool for MetLife that assisted the team in documenting their trained machine learning models and build automated testing suites for
+                                both my own project, and scripts within the data and analytics repository.
                             </School>
+
                         </div>
                     </section>
                 </div>
